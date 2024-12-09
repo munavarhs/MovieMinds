@@ -1,6 +1,6 @@
 .login-page {
     height: 100vh;
-    background-image: url('/Users/sanjna/Desktop/Software-Project/MovieMinds/client/public/images/Background.jpeg');
+    background-image: url('/Users/munnavar/Desktop/SE-Project-MovieMinds/client/public/images/Background.jpeg');
     background-position: center;
     /* background-repeat: no-repeat; */
     background-size: cover;
@@ -135,7 +135,7 @@
   
   .remember-me{
     color: white;
-    font-weight: bold;
+    font-weight: 500;
     text-align: center;
     width: 50px;
     height: 20px;

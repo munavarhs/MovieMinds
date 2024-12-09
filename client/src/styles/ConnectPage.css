@@ -51,6 +51,11 @@
     display: flex;
     gap: 10px;
   }
+
+  .btns-container{
+    display: flex;
+    gap: 15px;
+  }
   
   .logout-btn, .homepage-btn {
     background: white;
@@ -63,6 +68,7 @@
     margin-top: 10px; 
     font-weight: bold;
   }
+
 
   .homepage-btn{
     background: #93131B;

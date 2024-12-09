@@ -101,6 +101,10 @@ const ConnectPage = () => {
         console.error('Error logging out:', error);
       });
   };
+
+  const handleClick = () => {
+      navigate('/home-page')
+  }
   return (
     <div className="connect-page">
     <header className="header">
@@ -113,7 +117,10 @@ const ConnectPage = () => {
         <span className="username-badge">{username || 'Loading...'}</span>
       </div>
       <h1 className="title">MOVIE MiND’s - Connect</h1>
+      <div className='btns-container'>
+      <button className ="logout-btn" style={{'background':'#93131B', color:'#FFF', padding:'13px'}}onClick={handleClick}>BACK TO BROWSE</button>
       <button className="logout-btn" onClick={handleLogout}>LOGOUT</button>
+      </div>
     </header>
 
     {/* Search Section */}
